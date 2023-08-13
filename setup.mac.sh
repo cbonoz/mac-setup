@@ -33,6 +33,9 @@ brew install pyenv
 # Front end
 brew install yarn
 
+# Vscode
+brew install --cask visual-studio-code
+
 
 # Git
 brew install git
@@ -43,8 +46,13 @@ brew install tree
 # Go
 brew install go
 
-# Misc
+# zsh
 brew install zsh
+#ohmyzsh
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
+
+
+# Misc
 brew install gcc
 brew install tfenv
 brew install httpie
@@ -53,3 +61,7 @@ brew install vim
 
 # Cleanup
 brew cleanup
+
+# Exports
+export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
+
