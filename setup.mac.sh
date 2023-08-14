@@ -29,13 +29,13 @@ brew install awscli
 # Python (for AWS tooling + ML)
 brew install python
 brew install pyenv
+brew install jupyterlab
 
 # Front end
 brew install yarn
 
 # Vscode
 brew install --cask visual-studio-code
-
 
 # Git
 brew install git
@@ -49,8 +49,8 @@ brew install go
 # zsh
 brew install zsh
 #ohmyzsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/ohmyzsh/ohmyzsh/master/tools/install.sh)"
 
 # Misc
 brew install gcc
@@ -64,4 +64,3 @@ brew cleanup
 
 # Exports
 export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
-
