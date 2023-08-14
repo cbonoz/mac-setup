@@ -62,5 +62,9 @@ brew install vim
 # Cleanup
 brew cleanup
 
+# pip
+python -m ensurepip --upgrade
+pip install -U scipy numpy matplotlib pandas scikit-learn
+
 # Exports
 export PATH="\$PATH:/Applications/Visual Studio Code.app/Contents/Resources/app/bin"
