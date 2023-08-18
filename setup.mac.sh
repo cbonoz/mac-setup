@@ -11,6 +11,14 @@ echo "Starting setup"
 
 echo "Installing homebrew, then various dependencies for engineering."
 
+# Install Xcode command line tools
+xcode-select --install
+
+# Install Rosetta
+# Enables intel apps on apple silicon.
+# softwareupdate --install-rosetta
+
+
 # Check for Homebrew,
 # Install if we don't have it
 if test ! $(which brew); then
